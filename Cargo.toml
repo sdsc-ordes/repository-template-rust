@@ -1,0 +1,8 @@
+[workspace]
+  members = [
+  "src/custom-lib",
+  "src/main",
+  ]
+  resolver = "2"
+
+[workspace.dependencies]
