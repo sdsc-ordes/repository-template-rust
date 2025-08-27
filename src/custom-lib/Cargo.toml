@@ -1,0 +1,19 @@
+[package]
+  name = "custom-lib"
+  version = '0.0.1'
+  description = "This a repository from a repository template."
+  license = ""
+  homepage = " https://github.com/swissdatasciencecenter/my-project "
+  keywords = []
+  authors = [
+  "Alice Wonderland <alice.wonderland@sdsc.ethz.ch>",
+  "Bob Wonderland <bob.wonderland@sdsc.ethz.ch>",
+  ]
+  edition = "2021"
+
+[dependencies]
+  anyhow = "1.0.93"
+
+[lints.clippy]
+  pedantic = "deny"
+  needless_return = "warn"
